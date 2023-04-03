@@ -5,7 +5,7 @@
 
 window.onload = function(){
     const d = new Date();
-    let currentDay = window.timetable[d.getDay()-2];
+    let currentDay = window.timetable[d.getDay()-1];
     let timetableDiv = document.getElementById("timetableDiv");
 
     let frWidths = ""
